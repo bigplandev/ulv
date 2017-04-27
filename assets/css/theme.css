@@ -1,0 +1,77 @@
+@media (min-width: 1200px){
+
+	.container{
+		width: 1070px;
+	}
+}
+
+body{
+	background: url(../images/bg_intro.png);
+	background-position: center top;
+}
+
+/**
+* Página de Introdução
+*/
+.intro {
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.intro .logo {
+    margin-bottom: 70px;
+}
+
+.intro .menu-linguas .select2-container--default .select2-selection--single {
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255, 220, 7, 0.75);
+    border-radius: 0px;
+    padding: 7px;
+    height: 40px;
+    outline: none;
+}
+
+.select2-dropdown {
+    background: rgba(255, 220, 7, 0.73);
+    font-family: 'Montserrat', Roboto, Arial, sans-serif;
+    border: 1px solid rgba(255, 220, 7, 0.75);
+    border-radius: 0px;
+}
+
+.select2-dropdown .select2-results__option {
+    padding-left: 15px;
+    color: #000;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: rgba(0, 0, 0, 0.71) !important;
+    color: #ffdc07;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background: none;
+}
+
+.intro .menu-linguas .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+    width: 30px;
+}
+
+.intro .menu-linguas .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 6px;
+    left: 10px;
+    border-color: #ffdc07 transparent transparent;
+}
+
+.intro .menu-linguas .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #ffdc07 transparent;
+    top: 12px;
+}
+
+.intro #select2-idioma-container {
+    color: #ffdc07;
+    line-height: 26px;
+    font-family: 'Montserrat', Roboto, Arial, sans-serif;
+}
+
+/* Fim da Introdução */
